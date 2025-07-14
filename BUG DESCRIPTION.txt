@@ -1,0 +1,21 @@
+-:BUG DESCRIPTION :-
+
+GET SINGLEUSER API :
+
+Random Issue : GET SINGLEUSER API responding status code 401 instead of 200.
+
+Steps to Reproduce :
+
+1. Create a user using Create User API ( verify the user is created successfully)
+2. Request the Get singleUser API call ( Request Url : "https://reqres.in/api/users/2")
+3. Verify the status code in the Response data.
+
+
+Actual Result : GET SINGLEUSER API responding status code 401 instead of 200.
+
+Expected Result : GET SINGLEUSER API should be responding always status code is 200 when API Call is successful and response data is displayed.
+
+
+Attached Automated Test Report Screenshot for more details.
+
+Path : ReqResAPIAutomationEvallo/test-output/emailable-report.html
