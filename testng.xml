@@ -1,0 +1,8 @@
+
+<suite name="Testingof ReqResAPI ">
+  <test name="API Testing Using RestAssured">
+    <classes>
+      <class name="tests.UserAccountsTest"/>
+    </classes>
+  </test> 
+</suite> 
